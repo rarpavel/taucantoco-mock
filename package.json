@@ -1,0 +1,21 @@
+{
+  "name": "netlify-express-app-demo_for_charts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions/server.js",
+  "scripts": {
+    "start": "netlify-lambda serve express",
+    "build": "netlify-lambda build express",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "nodemon": "^2.0.2",
+    "serverless-http": "^2.3.2"
+  }
+}
