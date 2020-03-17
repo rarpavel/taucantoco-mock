@@ -4,7 +4,7 @@ const path = require('path');
 const serverless = require('serverless-http');
 const app = express();
 const bodyParser = require('body-parser');
-const sexMock = require('mock/sex');
+const sexMock = require('./mock/sex');
 
 
 const mock1 = [
