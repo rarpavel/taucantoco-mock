@@ -42,6 +42,57 @@ const sexMock = [
 	}
 ]
 
+const reductionMock = [
+	{
+		month: 'Jan',
+		value: 1000
+	},
+	{
+		month: 'Beb',
+		value: 1100
+	},
+	{
+		month: 'Mar',
+		value: 1150
+	},
+	{
+		month: 'Apr',
+		value: 950
+	},
+	{
+		month: 'May',
+		value: 300
+	},
+	{
+		month: 'Jun',
+		value: 1300
+	},
+	{
+		month: 'Jul',
+		value: 800
+	},
+	{
+		month: 'Aug',
+		value: 875
+	},
+	{
+		month: 'Sep',
+		value: 1000
+	},
+	{
+		month: 'Oct',
+		value: 1100
+	},
+	{
+		month: 'Nov',
+		value: 1200
+	},
+	{
+		month: 'Dec',
+		value: 1300
+	}
+]
+
 const router = express.Router();
 router.get('/', (req, res) => {
 	res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -50,6 +101,7 @@ router.get('/', (req, res) => {
 });
 router.get('/another', (req, res) => res.json(mock1));
 router.get('/sex', (req, res) => res.json(sexMock));
+router.get('/reduction', (req, res) => res.json(reductionMock));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
 app.use(bodyParser.json());
