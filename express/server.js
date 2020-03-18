@@ -93,6 +93,64 @@ const reductionMock = [
 	}
 ]
 
+const peripheralMock = [
+	{
+		date: 'Jan 2019',
+		value1: 2000,
+		value2: 2300
+	},
+	{
+		date: 'Feb 2019',
+		value1: 2300,
+		value2: 2100
+	},
+	{
+		date: 'Apr 2019',
+		value1: 2800,
+		value2: 2400
+	},
+	{
+		date: 'May 2019',
+		value1: 2100,
+		value2: 2300
+	},
+	{
+		date: 'Jun 2019',
+		value1: 1500,
+		value2: 2100
+	},
+	{
+		date: 'Jul 2019',
+		value1: 1100,
+		value2: 1400
+	},
+	{
+		date: 'Aug 2019',
+		value1: 1600,
+		value2: 2400
+	},
+	{
+		date: 'Sep 2019',
+		value1: 1900,
+		value2: 1400
+	},
+	{
+		date: 'Oct 2019',
+		value1: 1950,
+		value2: 1900
+	},
+	{
+		date: 'Now 2019',
+		value1: 2950,
+		value2: 2900
+	},
+	{
+		date: 'Dec 2019',
+		value1: 2250,
+		value2: 2200
+	}
+]
+
 const router = express.Router();
 router.get('/', (req, res) => {
 	res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -102,6 +160,7 @@ router.get('/', (req, res) => {
 router.get('/another', (req, res) => res.json(mock1));
 router.get('/sex', (req, res) => res.json(sexMock));
 router.get('/reduction', (req, res) => res.json(reductionMock));
+router.get('/peripheral', (req, res) => res.json(peripheralMock));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
 app.use(bodyParser.json());
