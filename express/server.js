@@ -458,6 +458,19 @@ const salaryMock = [
 	}
 ]
 
+const salaryBottom = [
+	{
+		label: 'President',
+		type: 'Catis',
+		value: 1579
+	},
+	{
+		label: 'President',
+		type: 'Brut',
+		value: 1579
+	}
+]
+
 const router = express.Router();
 router.get('/', (req, res) => {
 	res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -473,6 +486,7 @@ router.get('/analiseLeader', (req, res) => res.json(peripheralLeaderMock));
 router.get('/analyse', (req, res) => res.json(analyseMock));
 router.get('/analyseLeader', (req, res) => res.json(analyseLeaderMock));
 router.get('/salary', (req, res) => res.json(salaryMock));
+router.get('/salaryBottom', (req, res) => res.json(salaryBottom));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
 app.use(bodyParser.json());
