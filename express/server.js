@@ -446,6 +446,7 @@ router.get('/sex', (req, res) => res.json(sexMock));
 router.get('/reduction', (req, res) => res.json(reductionMock));
 router.get('/peripheral', (req, res) => res.json(peripheralMock));
 router.get('/peripheralLeader', (req, res) => res.json(peripheralLeaderMock));
+router.get('/analiseLeader', (req, res) => res.json(peripheralLeaderMock));
 router.get('/analyse', (req, res) => res.json(analyseMock));
 router.get('/analyseLeader', (req, res) => res.json(analyseLeaderMock));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
