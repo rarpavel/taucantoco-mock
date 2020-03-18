@@ -400,6 +400,41 @@ const peripheralLeaderMock = [
 	}
 ]
 
+const analyseLeaderMock = [
+	{
+		label: 'Commission',
+		value: 3921
+	},
+	{
+		label: 'Commission',
+		value: 3821
+	},
+	{
+		label: 'Interessement',
+		value: 0
+	},
+	{
+		label: 'Interessement',
+		value: 0
+	},
+	{
+		label: 'Bonus',
+		value: 1962
+	},
+	{
+		label: 'Bonus',
+		value: 1952
+	},
+	{
+		label: '12eme mois',
+		value: 0
+	},
+	{
+		label: '12eme mois',
+		value: 0
+	}
+]
+
 const router = express.Router();
 router.get('/', (req, res) => {
 	res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -412,6 +447,7 @@ router.get('/reduction', (req, res) => res.json(reductionMock));
 router.get('/peripheral', (req, res) => res.json(peripheralMock));
 router.get('/peripheralLeader', (req, res) => res.json(peripheralLeaderMock));
 router.get('/analyse', (req, res) => res.json(analyseMock));
+router.get('/analyseLeader', (req, res) => res.json(analyseLeaderMock));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
 app.use(bodyParser.json());
