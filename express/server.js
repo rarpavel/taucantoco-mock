@@ -44,52 +44,114 @@ const sexMock = [
 
 const reductionMock = [
 	{
-		month: 'Jan',
-		value: 1000
+		date: 'Jan 2019',
+		value: 2000,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Beb',
-		value: 1100
+		date: 'Feb 2019',
+		value: 2300,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Mar',
-		value: 1150
+		date: 'Apr 2019',
+		value: 2800,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Apr',
-		value: 950
+		date: 'May 2019',
+		value: 2100,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'May',
-		value: 300
+		date: 'Jun 2019',
+		value: 1500,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Jun',
-		value: 1300
+		date: 'Jul 2019',
+		value: 1100,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Jul',
-		value: 800
+		date: 'Aug 2019',
+		value: 1600,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Aug',
-		value: 875
+		date: 'Sep 2019',
+		value: 1900,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Sep',
-		value: 1000
+		date: 'Oct 2019',
+		value: 1950,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Oct',
-		value: 1100
+		date: 'Now 2019',
+		value: 2950,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Nov',
-		value: 1200
+		date: 'Dec 2019',
+		value: 2250,
+		type: 'Reduction de charges'
 	},
 	{
-		month: 'Dec',
-		value: 1300
+		date: 'Jan 2019',
+		value: 2100,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Feb 2019',
+		value: 2200,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Apr 2019',
+		value: 2800,
+		type: 'Cout reel'
+	},
+	{
+		date: 'May 2019',
+		value: 2150,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Jun 2019',
+		value: 1400,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Jul 2019',
+		value: 1200,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Aug 2019',
+		value: 1700,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Sep 2019',
+		value: 1800,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Oct 2019',
+		value: 1350,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Now 2019',
+		value: 2850,
+		type: 'Cout reel'
+	},
+	{
+		date: 'Dec 2019',
+		value: 2290,
+		type: 'Cout reel'
 	}
 ]
 
