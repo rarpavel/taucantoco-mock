@@ -96,58 +96,113 @@ const reductionMock = [
 const peripheralMock = [
 	{
 		date: 'Jan 2019',
-		value1: 2000,
-		value2: 2300
+		value: 2000,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Feb 2019',
-		value1: 2300,
-		value2: 2100
+		value: 2300,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Apr 2019',
-		value1: 2800,
-		value2: 2400
+		value: 2800,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'May 2019',
-		value1: 2100,
-		value2: 2300
+		value: 2100,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Jun 2019',
-		value1: 1500,
-		value2: 2100
+		value: 1500,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Jul 2019',
-		value1: 1100,
-		value2: 1400
+		value: 1100,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Aug 2019',
-		value1: 1600,
-		value2: 2400
+		value: 1600,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Sep 2019',
-		value1: 1900,
-		value2: 1400
+		value: 1900,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Oct 2019',
-		value1: 1950,
-		value2: 1900
+		value: 1950,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Now 2019',
-		value1: 2950,
-		value2: 2900
+		value: 2950,
+		type: 'Total_peripherique'
 	},
 	{
 		date: 'Dec 2019',
-		value1: 2250,
-		value2: 2200
+		value: 2250,
+		type: 'Total_peripherique'
+	},
+	{
+		date: 'Jan 2019',
+		value: 2100,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Feb 2019',
+		value: 2200,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Apr 2019',
+		value: 2800,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'May 2019',
+		value: 2150,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Jun 2019',
+		value: 1400,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Jul 2019',
+		value: 1200,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Aug 2019',
+		value: 1700,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Sep 2019',
+		value: 1800,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Oct 2019',
+		value: 1350,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Now 2019',
+		value: 2850,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Dec 2019',
+		value: 2290,
+		type: 'Total_peripherique N-1'
 	}
 ]
 
