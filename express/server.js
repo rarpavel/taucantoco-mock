@@ -213,17 +213,17 @@ const peripheralMock = [
 	},
 	{
 		date: 'Jan 2019',
-		value: 2100,
+		value: 2010,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Feb 2019',
-		value: 2200,
+		value: 2210,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Apr 2019',
-		value: 2800,
+		value: 2810,
 		type: 'Total_peripherique N-1'
 	},
 	{
@@ -233,32 +233,32 @@ const peripheralMock = [
 	},
 	{
 		date: 'Jun 2019',
-		value: 1400,
+		value: 1520,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Jul 2019',
-		value: 1200,
+		value: 1130,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Aug 2019',
-		value: 1700,
+		value: 1640,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Sep 2019',
-		value: 1800,
+		value: 1920,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Oct 2019',
-		value: 1350,
+		value: 1900,
 		type: 'Total_peripherique N-1'
 	},
 	{
 		date: 'Now 2019',
-		value: 2850,
+		value: 2940,
 		type: 'Total_peripherique N-1'
 	},
 	{
