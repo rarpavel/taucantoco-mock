@@ -268,6 +268,119 @@ const peripheralMock = [
 	}
 ]
 
+const analyseMock = [
+	{
+		date: 'Jan 2019',
+		value: 2000,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Feb 2019',
+		value: 2300,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Apr 2019',
+		value: 2800,
+		type: 'Total_variable'
+	},
+	{
+		date: 'May 2019',
+		value: 2100,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Jun 2019',
+		value: 1500,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Jul 2019',
+		value: 1100,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Aug 2019',
+		value: 1600,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Sep 2019',
+		value: 1900,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Oct 2019',
+		value: 1950,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Now 2019',
+		value: 2950,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Dec 2019',
+		value: 2250,
+		type: 'Total_variable'
+	},
+	{
+		date: 'Jan 2019',
+		value: 2100,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Feb 2019',
+		value: 2200,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Apr 2019',
+		value: 2800,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'May 2019',
+		value: 2150,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Jun 2019',
+		value: 1400,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Jul 2019',
+		value: 1200,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Aug 2019',
+		value: 1700,
+		type: 'Total_peripherique N-1'
+	},
+	{
+		date: 'Sep 2019',
+		value: 1800,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Oct 2019',
+		value: 1350,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Now 2019',
+		value: 2850,
+		type: 'Total_variable N-1'
+	},
+	{
+		date: 'Dec 2019',
+		value: 2290,
+		type: 'Total_variable N-1'
+	}
+]
+
 const peripheralLeaderMock = [
 	{
 		label: 'Transport',
@@ -298,6 +411,7 @@ router.get('/sex', (req, res) => res.json(sexMock));
 router.get('/reduction', (req, res) => res.json(reductionMock));
 router.get('/peripheral', (req, res) => res.json(peripheralMock));
 router.get('/peripheralLeader', (req, res) => res.json(peripheralLeaderMock));
+router.get('/analyse', (req, res) => res.json(analyseMock));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
 
 app.use(bodyParser.json());
