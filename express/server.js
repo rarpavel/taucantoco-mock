@@ -467,7 +467,7 @@ const salaryBottom = [
 	{
 		label: 'President',
 		type: 'Brut',
-		value: 1579
+		value: 1479
 	}
 ]
 
